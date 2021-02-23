@@ -23,6 +23,7 @@ public class TelephoneBook {
         while (iter.hasNext()) {
             System.out.println(name + ". Телефон: " + book.get(name));
             iter.next();
+
         }
     }
 }
